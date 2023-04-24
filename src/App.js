@@ -29,7 +29,7 @@ function App() {
         },
     ];
     return (
-        <div className="">
+        <div>
             <NewExpense></NewExpense>
             <Expenses items={expenses} />
         </div>
